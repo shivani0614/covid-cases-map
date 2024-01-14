@@ -1,2 +1,3 @@
 https://datahub.io/core/geo-countries
 https://getbootstrap.com/
+https://github.com/CSSEGISandData/COVID-19/blob/web-data/data/cases_country.csv

@@ -8,7 +8,8 @@ const Covid = () => {
   const [countries, setCountries] = useState([]);
   const load = () => {
     const loadCountries = new LoadCountries();
-    loadCountries.load(setCountries);
+    // loadCountries.load(setCountries);
+    loadCountries.load((countries)=>setCountries(countries));
     // console.log(loadCountries);
   }
   console.log("countries:",countries);
