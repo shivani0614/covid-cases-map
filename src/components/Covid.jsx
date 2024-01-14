@@ -12,7 +12,7 @@ const Covid = () => {
       ) : (
         <div>
           {" "}
-          <Map />
+          <Maps />
           <Legend />
         </div>
       )}
